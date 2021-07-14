@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{}
+
+p{
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    background-color: #2D25A0;
+    padding: 42px;
+    width: 100%;
+}
+.menu-bar{
+margin-left: 156px;  
+margin-right: 120px; 
+?
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+ color: white;
+ margin-right: 36px;
+ padding: 5px 10px;
+}
+
+nav ul li a:hover{
+    background-color: black
+    ;transition-duration: 0.5s;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login{
+    color: white;
+    /* background-color: #E02C6D;
+    padding: 6px 19px;
+    border-radius: 5px; */
+}
+.login a{
+    color: white;
+    color: white;
+    background-color: #E02C6D;
+    padding: 6px 19px;
+    border-radius: 5px;
+}
+.login a:hover{
+background-color: black;
+transition-duration: 0.5s;
+color: red;
+}
+
+/*------------------- banner section css start -------------------*/
+
+section{
+    background-color: #2D25A0;
+}
+.bannne{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 97px;
+    grid-row-bottom: 86px;
+}
+.heding{   
+margin-left: 161px;   
+margin-top: 130px;   
+margin-bottom: 86px;
+}
+.heding h1{
+    color:white;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 18px;
+}
+.watch a{
+    color:white;
+    background-color: #E02C6D;
+    display: initial;
+    padding: 9px;
+    border-radius: 5px;
+}
+.watch a:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+    color: red;
+
+}
+.banner-image{
+margin-top: 67px;
+margin-bottom: 86px;
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+}
+/*------------------- banner section css end-------------------*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-left: 156px;
+    margin-right: 120px;
+    margin-bottom: 63px;
+}
+.contaient{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 5px 5px 5px #c1c1c187;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    }
+.player-img img{
+    width: 300px;
+    margin-top: 17px;
+    border-radius: 3px;
+}
+
+
+.info{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.info h4{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+   
+}
+.info p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+/* -------------extra part 1 css start------------- */
+.extra-part{
+background-image: url(images/bg3.jpg);
+width: 100%;
+height: 460px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 50px;
+flex-wrap: wrap;
+}
+.extra-part h1{
+    color: #f1f0f0;
+    margin-bottom: 22px;
+    font-size: 37px;
+}
+.extra-part p{
+    color: #f7efef;
+    font-size: 24px;
+    font-weight: 700;
+}
+.extra-part a{
+    color: white;
+    background-color: #e80606;
+    padding: 8px 33px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 122px;
+}
+.extra-part a:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+    color: red;
+
+}
+/* -------------extra part 1 css End------------ */
+/* -------------extra part 2 css start------------- */
+
+.sponser{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.sponser-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sponser-logo a img{
+    width: 175px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.sponser-logo> a:hover{ 
+     border: 1px solid white;
+     transition-duration: 1s
+   
+}
+
+
+.spon{
+background-color: black;
+color: white;
+text-align: center;
+padding-top: 50px;
+font-family: math;
+font-size: 53px;
+}
+/* -------------extra part 2 css start------------- */
+/* !--======================== footer section  css start ==================================--> */
+.football{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 75px;
+    margin-top: 67px;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 366.87px;
+}
+.footer-icon>ul a:hover{
+    border: 1px solid cornflowerblue;
+    background-color: black;
+    font-size: 43px;
+    border-radius: 5px;
+    transition-duration: 0.3s
+    ;margin: 7px;}
+#f-icon{
+    color: #ca03efdb;
+    font-size: 43px;
+    margin: 7px;
+}
+/* !--======================== footer section css  end ==================================--> */
+
+/*======================= media quria start ==============================*/
+/*--------------- mobile------------- */
+@media only screen and (max-width:480px) {
+    section{
+        width: 100%;
+    }
+    .bannne{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+        width: 100%;  
+    }
+    .heding{   
+        margin-left: 50px;   
+        margin-top: 70px;   
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .heding h1{
+        width: 100%;
+        margin-bottom: 18px;}
+
+    .banner-image img{
+        width: 340px;
+        height: 240px;
+    }  
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 45px;
+        margin-left: 35px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+
+    }
+
+    .extra-part{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-position: center;
+    }
+.sponser{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+
+}
+
+}
+                
+@media only screen and (min-width: 481px) and (max-width:768px)
+ {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+        margin-bottom: 20px;
+     
+    }
+    section{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: #2D25A0;
+    }
+    .bannne{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);  
+        width: 100%;  
+    }
+    .heding{   
+        margin-left: 80px;   
+        margin-top: 75px;   
+        margin-bottom: 50px;
+        width: 100%;
+        }
+    .player-img img{
+        width: 150px;
+        margin-top: 17px;
+        border-radius: 3px;
+        width: 80%;
+    }
+    .heding h1{
+        
+        width: 100%;
+        margin-bottom: 18px;
+    }
+   
+  } 
+
+  @media only screen and (min-width: 769px) and (max-width:1200px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+        margin-bottom: 20px;
+        
+    }
+
+  }
+/*--------------- mobile------------- *
